@@ -1,0 +1,33 @@
+# requirements.txt - เพิ่ม dependencies สำหรับ timezone
+
+# Core Flask dependencies
+Flask==2.3.3
+Werkzeug==2.3.7
+
+# Database
+PyMySQL==1.1.0
+
+# Computer Vision & AI
+opencv-python==4.8.1.78
+ultralytics==8.0.196
+torch==2.0.1
+torchvision==0.15.2
+
+# Image processing
+Pillow==10.0.1
+numpy==1.24.3
+
+# System monitoring
+psutil==5.9.5
+
+# HTTP requests
+requests==2.31.0
+
+# Date/Time handling - เพิ่มใหม่สำหรับ timezone
+pytz==2023.3
+
+# Utilities
+python-dotenv==1.0.0
+
+# Optional: For better logging
+colorlog==6.7.0
